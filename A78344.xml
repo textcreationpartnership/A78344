@@ -1,0 +1,409 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A catalogue of the titles of severall books printed in Cambridge in the year 1669</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1669</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 29 KB of XML-encoded text transcribed from 5 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A78344</idno>
+            <idno type="STC">Wing C1411B</idno>
+            <idno type="STC">ESTC R175692</idno>
+            <idno type="EEBO-CITATION">43077484</idno>
+            <idno type="OCLC">ocm 43077484</idno>
+            <idno type="VID">151543</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A78344)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 151543)</note>
+            <note>Images scanned from microfilm: (Early English Books, 1641-1700 ; 2264:7)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A catalogue of the titles of severall books printed in Cambridge in the year 1669</title>
+               </titleStmt>
+               <extent>[7] p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.,</publisher>
+                  <pubPlace>[Cambridge? :</pubPlace>
+                  <date>1669?]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Caption title.</note>
+                  <note>Reproduction of original in: William Andrews Clark Memorial Library, University of California, Los Angeles, California.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Titles of books --  England --  Cambridge --  Humor.</term>
+               <term>Satire, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-06</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-07</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-03</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2013-03</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="mock_book_catalogue">
+            <pb facs="tcp:151543:1" rendition="simple:additions"/>
+            <list>
+               <head>A CATALOGUE Of the titles of ſeverall Books printed in <hi>Cambridge</hi> in the Year 1669.</head>
+               <label>In a large Folio.</label>
+               <item>FIve demonſtrations to prove that a Frenchifyed Englishman, being a privy Councellour, may lawfully be a Penſioner to the Frence King. Dedicated to the <hi>Earle</hi> of <hi>St. Albans.</hi>
+               </item>
+               <label>In a ſmal Octavo.</label>
+               <item>Crums of comfort for the <hi>Eaſt-India-Company:</hi> wherein it is made evident that <hi>Goa, Dunkirk,</hi> &amp; the <hi>Nutmegg-Island</hi> are to be delivered to the English, when the Citradels are rebuilt in <hi>Scotland.</hi>
+               </item>
+               <label>In a large Folio.</label>
+               <item>Three Arguments to prove that forty thouſand pounds is but a ſmall ſumm to play away in one winter in the <hi>French</hi> Court by a <hi>Ierman Count.</hi> Dedicated to the <hi>House of Commons.</hi>
+               </item>
+               <label>In a large Quarto.</label>
+               <item>Reaſon &amp; Iuſtice in 3 Tomes: proving the impartiallity of our Age, <hi>viz.</hi> in fetching the <hi>Lord Warreſton</hi> out of <hi>France,</hi> &amp; hanging him in <hi>Scotland;</hi> and ſuffering <hi>Clarendon</hi> at his ease in <hi>France</hi> to do further mischief.</item>
+               <label>In the largeſt of Folios.</label>
+               <item>Fifty unanſwerable Arguments to prove <hi>Sr. George Downing</hi> a worſe condition'd Traytour againſt his Maſter <hi>Okey,</hi> than <hi>Iudas</hi> againſt our <hi>Saviour,</hi> who, when he conſidered what he had done, went &amp; hang'd himſelf.</item>
+               <label>In a ſmall Folio.</label>
+               <item>Twenty Arguments to prove that never any <hi>Lawyer</hi> went to heaven (except <hi>Sr. Thomas More</hi>) though a Chriſtian, eſpecially ſuch as take fees on both ſides, &amp; make no conſcience of pleading in a bad cauſe. De<g ref="char:EOLhyphen"/>dicated to <hi>Iack Fountain, Iack Maynard, Black-mouth'd Iones, &amp; Sr. Ambroſele Befe</hi> the <hi>Butchers</hi> ſon at <hi>Smithfield-barrs.</hi>
+               </item>
+               <label>In a Duodecimo.</label>
+               <item>A new way of paying old debts, Written by <hi>Plutofurens:</hi> viz: That the debtor ought to beat the Creditor if he truſt a Courtier, &amp; ask for his money. Dedicated to <hi>Howard</hi> the Mercer, <hi>Dean</hi> the Woodmonger and <hi>Avery</hi> the Coachmaker.</item>
+               <label>In a large Folio.</label>
+               <item>A Dam-me way of ſwearing &amp; hectoring a Man out of life &amp; eſtate: written in a black character by <hi>Plutofurens,</hi> &amp; Compeers <hi>Dobſon, Prieſtman &amp; Granger.</hi> Dedicated to <hi>Alexander Fitton, Willi Carr Percival Hart</hi> and <hi>Blunden.</hi>
+               </item>
+               <label>In a ſmall Octavo,</label>
+               <item>An excellent method of <hi>lying,</hi> or inventing lyes, together with the Art of <hi>Memory</hi> requiſite for a Lyar Compoſed by the 3 famous Authors <hi>Sr. Satan Birkenhead, Sr. Thomas Gore and Sr. Giddy-brain Gerard.</hi> With the learned Obſervations of <hi>Doctor Baber</hi> an exquiſite Student &amp; Practitioner in that Ar<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Dedicated to <hi>Coll. Noy.</hi>
+               </item>
+               <label>In a Quarto.</label>
+               <item>Savill or the <hi>Vujuſt Steward;</hi> being a <hi>Tragi-Comedy,</hi> Acted at the <hi>Kings houſe:</hi> wherein is preſented the injuſtice of the <hi>Steward</hi> in ſelling the Towns in <hi>Holland &amp; Flanders.</hi> Dedicated to <hi>Queen Beſſes</hi> Tomb.</item>
+               <label>In a large Quarto.</label>
+               <item>Articles of Agreement made in a tripartite Alliance between the right Venerable Baud <hi>Benee, Madam Valeire &amp; Madam Caſtlemain:</hi> with the propoſalls of marriage between the High-born Baſtards <hi>Lew%% de Bourbonne Valeire,</hi> Charles Caſtlemain, &amp; the 2. Miſtris <hi>Iermins</hi> in the Nunnery at <hi>Cullomb</hi> in <hi>Franc<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </hi>
+               </item>
+               <label>
+                  <pb facs="tcp:151543:2"/> In Folio.</label>
+               <item>
+                  <list>
+                     <item>Twenty Reaſons written by the Lady <hi>Benet, Damaris Page, Proſerpine Civit &amp; Madam Chiffins:</hi> with the Obſervations of their Siſter <hi>Wood</hi> deceaſed: wherein is a direction to <hi>Madam Ruſſell,</hi> &amp; all other hope<g ref="char:EOLhyphen"/>full Ladies likely to trade at Court; That they, on pain of poverty, diſeaſes &amp; old age, never offer to expoſe their Commodities to ſale on truſt; but firſt ſecure a good ſtock of Money &amp; Titles of Honour: for that there is no truſt in Princes or Sons of men: As for example, <hi>Mis</hi> at the <hi>Play-houſe, Roxellana, Warmſley,</hi> &amp; other <hi>Whores</hi> of <hi>Honour.</hi>
+                     </item>
+                     <item>A new way of Inſtitution &amp; Induction practiſed on <hi>Doctor ....</hi> at the Fleece-Tavern in <hi>Holborn</hi> by Arch-Bishop <hi>Buckhurſt,</hi> Arch-Deacon <hi>Sidley</hi> &amp; Chancellour <hi>Blaney.</hi>
+                     </item>
+                  </list>
+               </item>
+               <label>Jn a Duodecimo.</label>
+               <item>The heavy Iudgements inflicted on <hi>Sr. George Cartwright</hi> for his ruining the valiant Seamen of <hi>England,</hi> &amp; cheating the Nation in the Exchequer: viz. to be confined Treaſurer of <hi>Ireland</hi> for his miſerable life.</item>
+               <label>Jn a Folio.</label>
+               <item>An exact model &amp; ſurvey of the <hi>Great Ships</hi> built by the <hi>Ld. Gerard</hi> &amp; the reſt of the <hi>Peers,</hi> according to the flouriſh they made at the burning of the Ships at <hi>Chattam.</hi> Dedicated to the Court of <hi>Aldermen &amp; Common Councell</hi> building the <hi>Loyal London;</hi> with a Motto.
+<q>
+                     <l>'Tis for a Merchant to keep his word:</l>
+                     <l>But for an upſtart Lord a....</l>
+                  </q>
+               </item>
+               <label>Jn a Folio.</label>
+               <item>The <hi>English</hi> Intereſt firmly eſtablished in <hi>Ireland</hi> by outing the honeſt Adventurers, &amp; innocent <hi>English</hi> families ſettled 100 Years in <hi>Ireland;</hi> &amp; putting into their eſtates the known <hi>Irish Rebels.</hi> Dedicated to the <hi>Privy Council</hi> in 40 Articles by <hi>Alderman Barker</hi> of <hi>London.</hi>
+               </item>
+               <label>Jn a Quarto.</label>
+               <item>
+                  <hi>Alderman Bolton's</hi> honeſty to the poor burnt out of <hi>London</hi> comparted to the piſſing out the fire of <hi>Lon<g ref="char:EOLhyphen"/>don</hi> by wiſe <hi>Sr. Thomas Bludworth.</hi>
+               </item>
+               <label>In a Duodecimo.</label>
+               <item>The <hi>Lady Benet's</hi> Receipt for loſt <hi>maidenheads</hi> preſented to <hi>Madam Churchill, Mrs. Warmſley</hi> &amp; others, whores of honour.</item>
+               <label>Jn a Folio.</label>
+               <item>
+                  <list>
+                     <item>
+                        <hi>Sr. Poll</hi> alias <hi>Sr. Gilbert Gerard; Hypocondria</hi> for the cure of his mad wife, &amp; the reſt of the mad Daugh<g ref="char:EOLhyphen"/>ters of <hi>Gutta Roſacea the Beaſt of Durham,</hi> Dedicated to the <hi>Bishops</hi> onely Son now a Pikeman in <hi>Ruſſels</hi> Regiment.</item>
+                     <item>A rare Secret found out by the <hi>Beaſt</hi> of <hi>Durham's</hi> Chambermaid, being an Antidote againſt piſſing &amp; ſhit<g ref="char:EOLhyphen"/>ing a bed when drunk.... by taking Goats hoof or it's bladder burnt to a powder, &amp; drunk in the Colle<g ref="char:EOLhyphen"/>giate cup at <hi>Peterburrow.</hi>
+                     </item>
+                  </list>
+               </item>
+               <label>Jn a Quarto.</label>
+               <item>
+                  <list>
+                     <item>
+                        <hi>Gutta Roſacea</hi> his logick, that, as the <hi>Beaſt of Durhaem</hi> is a <hi>Prince Palatine</hi> he may lawfull ly with his maid ſeverall years; &amp; after, marry her to his Man, by a Licence from <hi>Sr. Satan Birckenhead.</hi> Dedicated to the <hi>Cobler of Gloceſter.</hi>
+                     </item>
+                     <item>The Milk-wife at Hackney her miſtaken method of cureing <hi>Doctor Smallwoods</hi> mad wife, in ſending the <hi>Doctors Baſtard</hi> in a Basket, in ſtead of a basket of ſtrawing herbs for his Church.</item>
+                  </list>
+               </item>
+               <label>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n a large Folio.</label>
+               <item>
+                  <list>
+                     <item>Vngratefullnes in 17 books, written by Monſieur <hi>Cadoule</hi> of <hi>Mompelier.</hi> Dedicated to <hi>Blood-Frayſer</hi> a Louſy <hi>Scot</hi> in that Town.</item>
+                     <pb facs="tcp:151543:2"/>
+                     <item> A perite Medicament for the Cure of <hi>Doctor Frayſer's</hi> broken <hi>vertex,</hi> found out by the <hi>Bayliff</hi> of Weſt<g ref="char:EOLhyphen"/>minſter: &amp; dedicated to <hi>Sr. Edmund Godfrey.</hi>
+                     </item>
+                     <item>The ſad complaint of Royal blood with 200 other ſouls ſent to the shade below, againſt <hi>Blood Frayſer</hi>-De<g ref="char:EOLhyphen"/>dicated to <hi>Mr. Read, Frayſers</hi> old Maſter.</item>
+                  </list>
+               </item>
+               <label>Jn Octavo.</label>
+               <item>
+                  <list>
+                     <item>Five Arguments written by <hi>Izard</hi> the Printer, proveing <hi>Doctor Baber Pluto's</hi> Pimp, &amp; <hi>Will: Cravens</hi> Cheatmaſter Generall.</item>
+                     <item>
+                        <hi>Zanie</hi> or an <hi>Analeptica</hi> for the Cure of the Arthritical; experienced by <hi>Hyde</hi> on the <hi>Lady Mordant</hi> at <hi>Mompelier.</hi>
+                     </item>
+                     <item>
+                        <hi>Madam De rat's</hi> requeſt to <hi>Iuſtice Baber</hi> to make her a bill of what she deſervs for rubbing <hi>Clarendons</hi> shins every night in <hi>Mompelier.</hi>
+                     </item>
+                     <item>Sermons noted uſeleſs by the <hi>Comedians</hi> of both houſes, &amp; <hi>Weſtminſter-Abby;</hi> with a Queſtion put, —Whether <hi>Pauls-Church</hi> ought to be built firſt, or the <hi>Play-houſe</hi> in <hi>Salisbury-Court,</hi> &amp; which will be of moſt uſe for this Age?</item>
+                  </list>
+               </item>
+               <label>In a Scotch Paper.</label>
+               <item>
+                  <list>
+                     <item>The <hi>Frenchmens</hi> wonder, or the worlds aſtonishment, that ever <hi>Clarendon</hi> should have brains enough to be <hi>Chancellour</hi> of <hi>England;</hi> being judged, by ſuch as diſcourſe with him abroad, to be an ignorant lump of <hi>Cornbury-gutts.</hi>
+                     </item>
+                     <item>A new way found out in <hi>Ireland</hi> for the making good Soldiers, by nipping money out of each Souldiers days pay, for maintaining a <hi>Play-houſe</hi> for his <hi>Grace.</hi>
+                     </item>
+                     <item>The Tripartite Allyance of the <hi>Grand Senior, Devil</hi> &amp; <hi>French King</hi> ſent to all the ſecure negligent <hi>Prin<g ref="char:EOLhyphen"/>ces</hi> &amp; <hi>States.</hi>
+                     </item>
+                  </list>
+               </item>
+               <label>Jn a Quarto.</label>
+               <item>
+                  <list>
+                     <item>An hoeterogeneous Remedy againſt <hi>Melancholly</hi> found out by C— Lantherdail. Dedicated to <hi>Royal blood.</hi>
+                     </item>
+                     <item>
+                        <hi>Romes</hi> thanks returned to <hi>Clarendon</hi> for his Kind endeavours in ſending <hi>Sr. Richard Beling</hi> to the <hi>Popes</hi> ho<g ref="char:EOLhyphen"/>lineſs with a Commiſſion for <hi>Father Patrick</hi> to ſit in the <hi>Houſe of Commons.</hi>
+                     </item>
+                     <item>
+                        <hi>Dick Mason</hi> the <hi>Avenior</hi> his gracious condeſcention to his poor old <hi>Father</hi> for the continuance of his <hi>Ale<g ref="char:EOLhyphen"/>houſe,</hi> &amp; living poor in <hi>Stafford</hi>-shire: with the true relation how <hi>Dick</hi> cozzened a poor old woman on pretence of <hi>Marriage.</hi>
+                     </item>
+                     <item>An excellent Receipt againſt the ſin of <hi>Sodom:</hi> by <hi>Phiſiologer Bishop Dalben</hi> made in the <hi>Moon-light.</hi>
+                     </item>
+                     <item>
+                        <hi>Iuſtice Bales</hi> requeſt to <hi>Docter Baber</hi> to prove <hi>Magna Charta a Chancery Lawyer,</hi> &amp; not a <hi>Statute,</hi> as the wiſe <hi>Doctor</hi> once affirmed it to his <hi>Clerck</hi> &amp; an ignorant <hi>Conſtable.</hi>
+                     </item>
+                     <item>An Action brought againſt <hi>Sr. Poſitive at all, Sr. Will: Killegrew &amp; Senior Tomaſo</hi> by the <hi>Wites</hi> who wrote their <hi>Plays.</hi> Dedicated to <hi>Iudge Drayton &amp; Gresham-Colledge.</hi>
+                     </item>
+                     <item>The bleſſed reformation in the ſuppoſed <hi>Noble</hi> families of <hi>England,</hi> by reſolving againſt a <hi>Puritaniſme</hi>-life, &amp; taking up <hi>Heatheniſm.</hi>
+                     </item>
+                  </list>
+               </item>
+               <label>Jn a Quarto.</label>
+               <item>
+                  <list>
+                     <item>The Goodmans reſt, or an Aſſurance that no miscarriages or cheats shall every be punished by the <hi>Com<g ref="char:EOLhyphen"/>mittee</hi> of <hi>Brook-houſe:</hi> With a conſolation to the troubled Brethren <hi>Gerard, Cartwright, brazen-fac'd
+<pb facs="tcp:151543:3"/>Bronckerd, Pen, Peck</hi> &amp; others. with this in the title-page, <hi>Qui peccat &amp; non corripit alienae, facit ſuae.</hi>
+                     </item>
+                     <item>
+                        <hi>Mr. Holders</hi> Remonſtrance to the ſober people in <hi>England;</hi> with 3. arguments to prove that the valiant Chriſtian Act of <hi>Sr. Robert Holms</hi> in burning an innocent village in <hi>Holland,</hi> &amp; robbing &amp; cheating the <hi>Guiny-Company</hi> was not the cauſe of burning <hi>London,</hi> &amp; Ships at <hi>Chatham</hi> by way of <hi>Lex talionis.</hi>
+                     </item>
+                     <item>Directions for any perſons that are deſirous to take <hi>Holy Orders</hi> from <hi>Pope Clement the ix.</hi> or his Succeſ<g ref="char:EOLhyphen"/>ſors, to repair to the <hi>Monaeſtery</hi> built at <hi>st. Iames,</hi> &amp; at <hi>Caſtelles</hi> in <hi>Ireland.</hi>
+                     </item>
+                  </list>
+               </item>
+               <label>Jn a ſmall Quarto.</label>
+               <item>
+                  <hi>The Lord Gerards</hi> adviſe to.... That the way to govern the <hi>City of London</hi> &amp; keep them from rebellion, is, to reduce the proud Knaves to their blue Capps &amp; leather points, &amp; ſuffer no more <hi>Lord Majors</hi> or <hi>Common-Council,</hi> but make a good <hi>Cittadel</hi> out of the Stones of <hi>Pauls</hi> in the middle of the <hi>City,</hi> &amp; make a <hi>Hectoring Governour;</hi> according to the example of a <hi>Dam-me Lord</hi> who loſt all <hi>Wales</hi> &amp; all other places in his manaige.</item>
+               <label>In a large Folio.</label>
+               <item>
+                  <list>
+                     <item>An excellent diſcourſe called the <hi>Metamorphoſis of old Iack Vaughan;</hi> with the Dialogue between him &amp;..... a worthy <hi>Commoner,</hi> who meeting old <hi>Vaughan</hi> in <hi>Weſtminſter-Hall,</hi> ſaluted him with many congratulations, wishing him joy of his Court-preferments; to which old <hi>Vaughan</hi> replyed, Do you not ſee my grey-hairs? Alas, Alas, I am too old to be a Knave; the <hi>Court</hi> may deſign what they pleas, but they miſtake the Man, I am reſolued never to quit the <hi>Commons</hi> jntereſt: Yet with 6. hours this old man turned young, &amp; nimbly skipp'd to <hi>White-hall,</hi> where he made a <hi>Coupee,</hi> and from honeſt <hi>old Iack</hi> became <hi>Sr. Iohn,</hi> &amp; with the <hi>Courant-figure</hi> became <hi>Serjeant Iohn,</hi> &amp; with a <hi>Caper</hi> leapt into the <hi>Chief-Iuſtice</hi> ſeat in the <hi>Common-pleas;</hi> &amp; is become an Excellent <hi>Dancer</hi> after a <hi>Court-horn-pipe;</hi> which cauſed one to ſend him theſe 2. lines to paint in his <hi>Coat of Arms,</hi>
+                        <q rend="italic">
+                           <l>This is no wonder in ſuch a Man;</l>
+                           <l>One honeſt <hi>Lawyer</hi> shew who can?</l>
+                        </q>
+                     </item>
+                     <item>
+                        <hi>The French Kings</hi> thanks with his preſent ſent to his <hi>Penſioners</hi> by his faithfull <hi>Ierman Count,</hi> for en<g ref="char:EOLhyphen"/>deavouring to break the <hi>Triple Allyance;</hi> that <hi>England</hi> &amp; <hi>Holland</hi> may once more weaken the <hi>Proteſtant Intereſt,</hi> that the <hi>French King</hi> may have the eaſyer paſſage to <hi>England</hi> through <hi>Flanders</hi> &amp; Holland.</item>
+                     <item>A true accompt given to the <hi>French King</hi> by <hi>Monſieur Colbert</hi> of the whole charge in the purchase of <hi>Dun<g ref="char:EOLhyphen"/>kirk,</hi> wherein is caſt up what the new <hi>hangings</hi> coſt now hanging in the <hi>Louvre</hi> at <hi>Paris,</hi> wherein is the picture of <hi>Dunkirk</hi> with a purſe of money held over the Town: Alſo what the preſents coſt that were giv<g ref="char:EOLhyphen"/>en to the good old <hi>Gentlewoman</hi> &amp; to <hi>Gerard</hi> for his officiousnes in that affair.</item>
+                  </list>
+               </item>
+               <label>Jn the largeſt of Folio's.</label>
+               <item>
+                  <list>
+                     <item>
+                        <p>Fiftie Theſes, wherein the grand quaeſtion is ſtated, viz. <hi>Whether the abjureing Charles Stuart &amp; a ſingle perſon, or the abjureing the Covenant hath produced the greater plague on these Nations?</hi> in which book are large Cutts lively preſenting unto this Age, <hi>Kimbolton</hi> &amp; other <hi>Lords,</hi> with <hi>Iack Fountain, Serjeant Maynard, Iudges Terrhel, Sr. Harbottle Grimſton, Doctor Hodges, Doctor Smallwood,</hi> &amp; diſſembling <hi>Ley,</hi> lifting up their hands to heaven, &amp; crying that heavy Iudgements might purſue &amp; fall on the Violat<g ref="char:EOLhyphen"/>ers of that holy <hi>Covenant.</hi>
+                        </p>
+                        <p>In another Plate is <hi>Genll. Monck</hi> at the head of his Regiment abjureing a <hi>Single Perſon,</hi> &amp; murdering all that would not do the ſame.</p>
+                        <pb facs="tcp:151543:3"/>
+                        <p> On 23d. Cutt are preſented the severall Victories of the <hi>Common-wealth,</hi> where may be viewed the <hi>King of Spain</hi> plucking out one of his Eyes to pleaſe the <hi>Engliſh Ambaſſadour;</hi> the <hi>French King</hi> with his breeches down, &amp; <hi>Card. Mazarin</hi> on his knees holding up the <hi>Kings</hi> shirt; the <hi>Portugall</hi> delivering his <hi>Ambaſſad: Brother</hi> to be a ſacrifice to appeaſe the Peoples anger for affronting the <hi>English</hi> Nation; the <hi>Swede</hi> offering <hi>Chriſtian</hi> to be <hi>a Wife</hi> to any <hi>Son</hi> of the <hi>Common-wealth;</hi> the poor <hi>Dane</hi> with his back bare, and a whole Regiment of <hi>German Princes</hi> &amp; <hi>Italian Common-wealths</hi> offering their ſervices to <hi>Englands Common<g ref="char:EOLhyphen"/>wealth;</hi> the <hi>Dutch</hi> claiming kindred &amp; brotherly love; the Numerous <hi>Turks</hi> round the Mediterra<g ref="char:EOLhyphen"/>nian humbly preſenting to the <hi>Common-wealth</hi> all the <hi>English</hi> Slaves in fetters of Gold, admireing <hi>Blake,</hi> &amp; calling him a Son of the <hi>God Common-wealth in England,</hi> &amp; fearing that <hi>Blake</hi> would burn their Ships and deſtroy their harbours, from the Citys of <hi>Argiers, Salee &amp; Smyrna,</hi> the <hi>Bashaws</hi> ſending blank papers aboard the <hi>Generall</hi> to make his own Articles: And on the back-ſide of this Cutt is to be ſeen <hi>Sr. Thomas Allen</hi> beaten by a few Anchovy &amp; Olive-boats, where is preſented a feathered <hi>Captain</hi> with his Whore tyed to his back, and a bagg of money faſtened to his noſe as a leading-ſtring, with a <hi>Turk</hi> piſſing in the <hi>Captains</hi> eyes.</p>
+                        <p>And if you pleaſe to turn the other leaf, you will ſee a ſmall Cutt where is pictured a hand out of a wall pointing at the Plague &amp; fire of <hi>London,</hi> the burning of the Ships at <hi>Chatham</hi> &amp; <hi>Dutch-Warre;</hi> with a <hi>Turk</hi> whipping a Bishop in his Lawn-ſleevs, &amp; calling him ignorant proud &amp; drunken Prieſt.</p>
+                     </item>
+                     <item>
+                        <hi>A Prophecy</hi> found by a <hi>Cold-ſtreamer</hi> in an <hi>Abbey</hi> in <hi>Northumberland,</hi> foretelling that <hi>Oliver Cromwel &amp; Genll. Monck</hi> should both dy in their beds aequally honeſt, &amp; have ſumptuous funerails, &amp; be aequally exalted on <hi>Weſtminſter-Hall</hi> for breaking their faith to their <hi>Maſters.</hi>
+                     </item>
+                     <item>
+                        <hi>Tom of the Woods Prophecie,</hi> being ſent to <hi>Will Lilly</hi> from Schooters-Hill in <hi>Kent,</hi> with <hi>Tom's</hi> deſire that <hi>Lilly</hi> would give hïs judgement thereon unto the <hi>Lady Harvey.</hi> viz.
+<q>
+                           <lg>
+                              <l>When <hi>Monck</hi> Shall dy, we plainly See</l>
+                              <l>That <hi>Monmouth</hi> General shall be;</l>
+                              <l>Then <hi>Iames</hi> &amp; <hi>Nan</hi> in a ſmall flees</l>
+                              <l>To <hi>New-York</hi> fly they hold it meet.</l>
+                              <l>Til <hi>Charles the Second</hi> takes his reſt:</l>
+                              <l>Then York &amp; Monmouth shall contest</l>
+                              <l>Who hath moſt right to wear the <hi>Crown,</hi>
+                              </l>
+                              <l>And so in blood each other drown:</l>
+                              <l>The <hi>Commons</hi> then shall laugh &amp; ſing,</l>
+                              <l>And banish quite the Name of <hi>King:</hi>
+                              </l>
+                              <l>The <hi>Lords</hi> priviledge quite out of doors;</l>
+                              <l>Then every <hi>Peer</hi> muſt pay his ſcores:</l>
+                              <l>Then <hi>Caſtlemain</hi> that Papiſt-Whore</l>
+                              <l>Shall dy a death as did <hi>Iane Shore:</hi>
+                              </l>
+                              <l>And Drunken <hi>Shepheards</hi> run away;</l>
+                              <l>Both Dogs &amp; Flocks shal go aſtray:</l>
+                              <l>The knavish <hi>Lawyers</hi> in diſgrace,</l>
+                              <l>And honeſt men put in their place,</l>
+                              <l>Who shall with love make men agree,</l>
+                              <l>And juſtice plead without a Fee:</l>
+                              <l>The <hi>Cityzen</hi> &amp; <hi>Countreyman</hi>
+                              </l>
+                              <l>Shall lovingly go hand in hand.</l>
+                              <l>Then <hi>Brittain</hi> shall in triumph ride,</l>
+                              <l>With peace &amp; honour by her ſide;</l>
+                              <l>Dame <hi>Foreſight</hi> with her looking-glass</l>
+                              <l>Shewing what's coming &amp; what's paſt:</l>
+                              <l>
+                                 <hi>Iuſtice</hi> with her ballance waits that Day</l>
+                              <l>To even all that Strife can ſay:</l>
+                              <l>
+                                 <hi>Charitie</hi> full-loaded with her ſtore</l>
+                              <l>Diſtributing Alms amongst the poor:</l>
+                              <l>
+                                 <hi>Victory</hi> with her Laurel-Crown'd</l>
+                              <l>Spurning at Tyrants on the ground:</l>
+                              <l>
+                                 <hi>Heaven</hi> then shall pleaſed be</l>
+                              <l>For ſeeing Love &amp; Vnity</l>
+                              <l>Always waiting at the Gate</l>
+                              <l>To keep out diſcord from the State.</l>
+                           </lg>
+                        </q>
+                     </item>
+                  </list>
+               </item>
+               <label>In a large Quarto.</label>
+               <item>
+                  <list>
+                     <item>
+                        <hi>Sr Satan Birckenhead</hi> proved to be a legitimate Child of the Devil, viz. That when the poor people who had their houſes pull'd down on both <hi>Tower-hills,</hi> Petitioned the <hi>Houſe of Commons</hi> for ſatisfaction, The ſaid <hi>Sr. Satan</hi> ſtood up &amp; affirmed to the <hi>Parliament,</hi> That to his knowledge <hi>His Mai<gap reason="illegible" extent="1+ letters">
+                              <desc>•…</desc>
+                           </gap>tie</hi> had taken parti<g ref="char:EOLhyphen"/>culer care to ſatisfie &amp; pay every Man to a farthing their whole damage; Upon which lie <hi>The Houſe</hi> threw out the poor peoples Petition, who are not yet ſatisfyed, nor in any hopes of redress.</item>
+                     <pb facs="tcp:151543:4"/>
+                     <item> 
+                        <hi>The Ieſuits</hi> Concluſion &amp; Arguments uſed to ſeverall <hi>Proteſtant Princes</hi> abroad, That the <hi>Pope</hi> hath a great Intereſt in <hi>England;</hi> For that, ſay they, you find the <hi>Lord Taff E. of Carlingford,</hi> an <hi>Irish-Papiſt, Sr. Bernaed Gaſcoygn</hi> an <hi>Italian Papiſt.</hi> and <hi>Harry Howard</hi> the Head of all the <hi>Papiſts</hi> in <hi>England,</hi> with other <hi>Church-Papiſts</hi> employed as <hi>Embaſſadours</hi> to ſeverall <hi>Princes Coures;</hi> as if there were not <hi>Proteſtant</hi> Subjects enough capable of truſt.</item>
+                     <item>
+                        <hi>Montagu's</hi> faint requeſt &amp; Zeal in preſſing the <hi>French King</hi> on behalf of the poor oppreſſed <hi>Proteſtants</hi> in <hi>France;</hi> Together with that <hi>Kings</hi> gracious Anſwers, &amp; value had for the <hi>English Embaſſadours</hi> deſires; viz. making 49. fresh Articles be published againſt the <hi>Proteſtants,</hi> which are ſuch cruell Ones, that they are judged by moderate Perſons, to be hatch'd in hell by the departed Ieſuits, &amp; printed to gratify their friends in <hi>England.</hi>
+                     </item>
+                     <item>A hot diſpute between 2. young Students at the <hi>Vniverſitie</hi> of <hi>Heidelbergh,</hi> the one a <hi>Frenchman,</hi> the other an <hi>Englishman;</hi> In which the <hi>Frenchman</hi> by many unanſwerable Arguments proves, That as <hi>Queen Elizabeth</hi> promoted &amp; defended the <hi>Proteſtants</hi> Intereſt in the <hi>Low-Countries,</hi> So on the contrary <hi>King Iames &amp; King Charles</hi> of bleſſed memory deſtroyed not onely the Intereſt of <hi>Proteſtants</hi> in <hi>Cermany</hi> &amp; <hi>France,</hi> but everywhere elſe: <hi>One Demonſtration</hi> whereof was, That <hi>King Iames,</hi> (to gratifie <hi>Gundi<g ref="char:EOLhyphen"/>mer</hi> the <hi>Spanish Embaſſadour</hi>) out of a fearfull, baſe, cowardly Spirit, ſent orders to call home the <hi>Lord Vere</hi> &amp; other brave <hi>English</hi> Officers, commanding 8000 Men out of the Cittadell at <hi>Manham</hi> &amp; Caſtle at <hi>Heidelbergh,</hi> leaving thoſe invincible fortifications to the plunder of the <hi>Duke</hi> of <hi>Bavaria;</hi> the Engliſh having then had in <hi>Manham</hi> above 200 fodder of wine which contain 1200. hogsheads, &amp; all other pro<g ref="char:EOLhyphen"/>viſions in great abundance: Which Act was the immediate ruin of that renowned <hi>Prince Palatine,</hi> &amp; almoſt all the Proteſtants in Germany. <hi>A ſecond Demonſiration</hi> was, That when the <hi>Duke of Bukingham</hi> was ſent to the relief of the <hi>Proteſtants</hi> in <hi>Rochel,</hi> there were private Inſtructions that they should land the <hi>English</hi> in the <hi>Iſle</hi> of <hi>Rhee;</hi> and when <hi>God</hi> by a Iudgement cut off the <hi>Duke of Buckingham</hi> for his delaying to go with a ſecond relief, there were found in his pocketts inſtructions from the <hi>Queen-Mother,</hi> that the <hi>Duke</hi> should make good his premiſe to delay the time till the Rebels &amp; Rogues (as they were termed) were beaten before <hi>Mompelier</hi> &amp; at <hi>Rochel.</hi> So that the <hi>French-man</hi> concluded, That 'twas no marvel that <hi>Queen Eli<g ref="char:EOLhyphen"/>zabeth</hi> proſpered, &amp; was a terrour to the whole world, not ſuffering any <hi>French-Penſioners</hi> in her <hi>Court,</hi> employing none but true-born <hi>Englishmen:</hi> and that on the contrary, 't is no wonder, that ſo many Iudgements, plagues &amp; diſgraces have happened to <hi>England</hi> ſince her days, when you behold the treachery of our <hi>Chieftains &amp; Leaders.</hi>
+                     </item>
+                     <item>An Account dropt out of the Privy-purſe kept by <hi>Pimp-May,</hi> through <hi>Bridgmans</hi> careleſſnes, &amp; found by a <hi>Parliament-man:</hi> On the folding of the outſide of the paper was written, <hi>The punishment of evill<g ref="char:EOLhyphen"/>doers;</hi> viz.
+<list>
+                           <item>
+                              <hi>Item,</hi> To the <hi>Lord Gerard</hi> (for continuing his Art of ſwearing &amp; ruining many poor Gentlemen, &amp; other misdemeanours, &amp; abuſing the old <hi>King</hi> at <hi>Newark;</hi> and for his <hi>Ladys</hi> employ in the room of the <hi>Lady Wood</hi>) <hi>twelv thouſand pounds;</hi> On condition that He quietly give his place to the <hi>Duke of Monmouth. Item, Four thouſand pounds</hi> to the <hi>Lord Mordant</hi> to continue his practiſe of forceing <hi>Ladys,</hi> &amp; abuſeing <hi>Taylor</hi> &amp; others.</item>
+                           <item>
+                              <hi>Item,</hi> Five thouſand pounds to the <hi>Lord Culpeper</hi> to render his place in the <hi>Iſle of Wight</hi> to <hi>Sr. Robert Holms.</hi>
+                           </item>
+                           <item>
+                              <hi>Item,</hi> To the <hi>Lady Caſtlemain, twelv thouſand pounds</hi> to furnish <hi>Barkshire-Houſe.</hi>
+                           </item>
+                           <item>
+                              <hi>Item, Eight thouſand ſeaven hundred twenty five pounds</hi> a year to the <hi>Lady Caſtlemain</hi> out of the <hi>Poſt-Offices.</hi>
+                           </item>
+                           <item>
+                              <hi>Item,</hi> For the lying in of <hi>Mis</hi> at the <hi>Play-houſe,</hi> &amp; for <hi>children abroad at Nurſe &amp;c.:</hi> with many Articles lying before the <hi>Accomptants</hi> at Brook-houſe; exactly caſt up for ſatisfaction; with this Inſcription, <hi>Mobile mutatur ſemper cum Principe vulgus.</hi>
+                           </item>
+                        </list>
+                     </item>
+                  </list>
+               </item>
+               <label>In a ſmall Octavo.</label>
+               <item>
+                  <list>
+                     <item>
+                        <hi>Sr. Philip Warwicks</hi> wiſe reſolutions to weare little breeches, &amp; never to ask any employment; Provided he
+<pb facs="tcp:151543:4"/>may enjoy the laſt Fifty thouſand pound shared with pocky <hi>Sr. Robert Long</hi> of the Excheqr, Dedicated to the <hi>Commiſſioners</hi> at <hi>Brook-houſe.</hi>
+                     </item>
+                     <item>
+                        <hi>A Prophecie</hi> cryed in the ſtreets in <hi>Paris.</hi> Being An Obſervation on a Dialogue between an <hi>English</hi> Gentleman &amp; a <hi>French</hi> Nobleman at the Crowning of <hi>King Henry the Fifth</hi> in <hi>Paris;</hi> at which time the <hi>Englishman</hi> crowing &amp; braying over his Priſoner, ask'd him, when a <hi>Frenchman</hi> should be crowned <hi>King of England</hi> in <hi>London-city,</hi> as now an <hi>Englishman</hi> was crowned King of <hi>France</hi> in <hi>Paris?</hi> To which the <hi>Frenchman</hi> modeſtly replyed, <hi>Sr,</hi> I will tell you, <hi>When</hi> Englands <hi>Sins are as great as the Sins of</hi> France <hi>are now, you may then ſee a</hi> Frenchman, <hi>or ſome other ſtrange Nation crown'd in</hi> London: Which makes the <hi>Frenchman</hi> bragg that the time is near at hand: But honeſt English hearts do pray, &amp; hope that England will return by a holy Repentance to a mercifull <hi>God</hi> that can prevent the fulfilling of this <hi>Prophecie.</hi>
+                     </item>
+                     <item>
+                        <p>Hiſtory of <hi>Bel</hi> &amp; the <hi>Dragon.</hi> Being an excellent piece practiſed &amp; experienced by the <hi>States</hi> of <hi>Holland,</hi> in which is propoſed to the <hi>Duke of Bukingham</hi> 3. remedies in <hi>State</hi> for the prevention of the encreaſe &amp; growth of vermin &amp; cater<g ref="char:EOLhyphen"/>pillars in <hi>England,</hi> viz. That the 400000 pounds a year in Rents, Fees &amp; emoluments devoured by <hi>Arch-Deacons, Deans, Canons, Prebends, Chancellours, Commiſſaries, Officialls, Surrogates, Proctors, Gent-Apparators, Vicars, Petty-canons, Singing-men &amp; Boys, Choriſters, Organiſts, Goſpellers, Epiſtlers, &amp; Virgers</hi> &amp; the reſt of that <hi>joviall</hi> (&amp; unuſefull) <hi>Crew,</hi> (beſides the vaſt incomes of the <hi>Bishops</hi>) be employed <!-- <HI>Virgers</HI> &amp; the re&s;t of that <HI>joviall</HI> (&amp; unu&s;efull) <HI>Crew,</HI> (be&s;ides the va&s;t incomes of the <HI>Bishops</HI>) be employed--> for the maintenance of an able &amp; <hi>Godly Miniſtry,</hi> &amp; preſervation of the <hi>poor;</hi> Or laid out in a Fishing-<hi>trade</hi> for encreaſe of <hi>Shipping;</hi> Or as a Stock to defray the <hi>Publick charge,</hi> in the room of <hi>Exciſe &amp; Hearth-moneys.</hi> Dedicated to the Author of <hi>Omnia comeſta â Belo,</hi> &amp; the <hi>Cobler of Glouceſter.</hi>
+                        </p>
+                     </item>
+                     <item>
+                        <hi>Monks</hi> laſt &amp; charitable Legacies bequeathed to <hi>Genll Lambert</hi> &amp; <hi>Major Genll Overton,</hi> whereby he hath manifeſted himſelf to dy a true Son of the <hi>Church of England,</hi> according to the 40th Article, viz. <hi>Brethren forgive &amp; love one another.</hi>
+                     </item>
+                  </list>
+               </item>
+            </list>
+            <pb facs="tcp:151543:5" rendition="simple:additions"/>
+         </div>
+      </body>
+   </text>
+</TEI>
